@@ -8,7 +8,7 @@
 <body>
     <header>
         <img src="image.jpg" alt="Description de l'image" title="Logo">
-        <nav role="navigation">
+        <nav>
             <h2>Menu</h2>
             <ul>        
                 <li><a href="/Accueil">Produits</a></li>
@@ -19,13 +19,12 @@
     </header>
     <div>
         <details>
-            <summary>Filtre</summary>
+            <summary>Sélection des filtres</summary>
         <form name="filtre" method="post">
-            <legend>Sélection des filtres</legend>
              <input type="checkbox" name="filtres[]" value="meuble" id="meuble">
              <label for="meuble">Meuble</label>
              <br>
-             <input type="checkbox" name="filtres[]" value="electromenager" id="melectromenager">
+             <input type="checkbox" name="filtres[]" id="electromenager" value="electromenager">
              <label for="electromenager">Electroménager</label>
              <br>
              <input type="checkbox" name="filtres[]" value="lumaire" id="luminaire">
@@ -35,28 +34,28 @@
         </details>
     </div>
     <div>
-        <figure>
+        
             <img src="image1.jpg" alt="image1">
-            <figcaption>Image1</figcaption>
+            <h4>Image1</h4>
             <img src="image2.jpg" alt="image2">
-            <figcaption>Image2</figcaption>
+            <h4>Image2</h4>
             <img src="image3.jpg" alt="image3">
-            <figcaption>Image3</figcaption>
+            <h4>Image3</h4>
             <img src="image4.jpg" alt="image4">
-            <figcaption>Image4</figcaption>
+            <h4>Image4</h4>
             <img src="image5.jpg" alt="image5">
-            <figcaption>Image5</figcaption>
+            <h4>Image5</h4>
             <img src="image6.jpg" alt="image6">
-            <figcaption>Image6</figcaption>
-        </figure>
+            <h4>Image6</h4>
+    
     </div>
     <footer>
         <div>
-            <adress>
+            <address>
                 <p>Nom de l'entreprise</p>
                 <p>123 Rue de l'Exemple</p>
-                <p>E-Mail: <a href="mailto:>Contact"></a></p> 
-               </adress>
+                <p>E-Mail: <a href="mailto:Contact"></a></p> 
+               </address>
         </div>
         <div>
             <nav class="footer">
