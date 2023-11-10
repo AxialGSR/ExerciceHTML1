@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formIn {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="connexion">
+            <span>Sign up</span>
+            <form class='formUp' action="espace.html" method="post">
+                <input type="text" name="identifiant" id="identifiant">
+                <input type="password" name="motdepasse" id="motdepasse">
+                <button type="submit">CONNEXION</button>
+            </form>
+        </div>
+        <div class="inscription">
+        <form class="formIn" action="espace.html" method="post">
+            <span>Nom :</span>
+            <input type="text" name="nom" id="nom">
+            <span>Prénom</span>
+            <input type="text" name="prenom" id="prenom">
+            <span>Nom d'utilisateur</span>
+            <input type="text" name="pseudonyme" id="pseudonyme">
+            <span>Courrier électronique</span>
+            <input type="email" name="mail" id="mail">
+            <span>Mot de passe :</span>
+            <input type="password" name="mdp" id="mdp">
+            <span>Confirmer mot de passe :</span>
+            <input type="password" name="cmdp" id="cmdp">
+            <button type="submit">INSCRIPTION</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
